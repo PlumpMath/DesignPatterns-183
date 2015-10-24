@@ -13,6 +13,8 @@ namespace ProxyPattern
             Proxy proxy = new Proxy();
             proxy.Request();
 
+            proxy.Request();
+
             Console.ReadKey();
         }
     }
