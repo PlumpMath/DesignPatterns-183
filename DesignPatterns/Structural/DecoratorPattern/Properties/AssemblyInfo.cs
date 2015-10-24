@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("DesignPatterns")]
+[assembly: AssemblyTitle("DecoratorPattern")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("DesignPatterns")]
+[assembly: AssemblyProduct("DecoratorPattern")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("c5a29bb8-2839-4479-8447-adbd68b095d0")]
+[assembly: Guid("92846b30-501d-4eda-9fe6-beeefb4bfb0b")]
 
 // 程序集的版本信息由下列四个值组成: 
 //
