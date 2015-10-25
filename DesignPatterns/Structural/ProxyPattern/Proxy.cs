@@ -2,15 +2,15 @@
 {
     public class Proxy : Subject
     {
-        private RealSubject relRealSubject;
+        private RealSubject _relRealSubject;
         
         public override void Request()
         {
-            if (relRealSubject == null)
+            if (_relRealSubject == null)
             {
-                relRealSubject = new RealSubject();
+                _relRealSubject = new RealSubject();
             }
-            relRealSubject.Request();
+            _relRealSubject.Request();
         }
     }
 }
