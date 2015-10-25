@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PrototypePattern.ConcretePrototype1">
+    <Position X="0.5" Y="2.75" Width="1.75" />
+    <InheritanceLine Type="PrototypePattern.Prototype" ManuallyRouted="true">
+      <Path>
+        <Point X="1.25" Y="2.188" />
+        <Point X="1.25" Y="2.45" />
+        <Point X="1.375" Y="2.45" />
+        <Point X="1.375" Y="2.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>ConcretePrototype1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrototypePattern.Prototype">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Prototype.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
