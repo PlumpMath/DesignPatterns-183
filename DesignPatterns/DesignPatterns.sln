@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodPattern", "Be
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadePattern", "Structural\FacadePattern\FacadePattern.csproj", "{AADFD76D-7985-4EE4-8FBE-6FA62EA4EF93}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "Creational\BuilderPattern\BuilderPattern.csproj", "{02B31CCD-5771-44B7-B512-E07BA0CA0132}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{AADFD76D-7985-4EE4-8FBE-6FA62EA4EF93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AADFD76D-7985-4EE4-8FBE-6FA62EA4EF93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AADFD76D-7985-4EE4-8FBE-6FA62EA4EF93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02B31CCD-5771-44B7-B512-E07BA0CA0132}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02B31CCD-5771-44B7-B512-E07BA0CA0132}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02B31CCD-5771-44B7-B512-E07BA0CA0132}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02B31CCD-5771-44B7-B512-E07BA0CA0132}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,5 +89,6 @@ Global
 		{84820388-BE4C-43EE-9A6E-74BB4E97091B} = {36D18F49-FABC-4B2D-A3F8-C7DD9BEB3CB8}
 		{43C478DC-2D7A-4962-BE1C-45711688A0A7} = {BDBCBF68-2F35-46BB-91E8-E1F37CBAD430}
 		{AADFD76D-7985-4EE4-8FBE-6FA62EA4EF93} = {835A5920-9E1D-4A13-9D14-E46B81AE5870}
+		{02B31CCD-5771-44B7-B512-E07BA0CA0132} = {36D18F49-FABC-4B2D-A3F8-C7DD9BEB3CB8}
 	EndGlobalSection
 EndGlobal
