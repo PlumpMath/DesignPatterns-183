@@ -1,14 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace ObserverPattern
 {
     public abstract class Subject
     {
-         private readonly IList<Observer> _observers = new List<Observer>();
+        private readonly IList<Observer> _observers = new List<Observer>();
 
         /// <summary>
-        /// 增加观察者
+        ///     增加观察者
         /// </summary>
         /// <param name="observer"></param>
         public void Attach(Observer observer)
@@ -17,7 +16,7 @@ namespace ObserverPattern
         }
 
         /// <summary>
-        /// 移除观察者
+        ///     移除观察者
         /// </summary>
         /// <param name="observer"></param>
         public void Detach(Observer observer)
@@ -26,7 +25,7 @@ namespace ObserverPattern
         }
 
         /// <summary>
-        /// 通知
+        ///     通知
         /// </summary>
         public void Notify()
         {

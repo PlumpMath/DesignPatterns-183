@@ -1,12 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace StrategyPattern
@@ -22,7 +15,7 @@ namespace StrategyPattern
         {
             cbbType.Items.AddRange(new object[]
             {
-                "正常收费","打八折","满300返100"
+                "正常收费", "打八折", "满300返100"
             });
             cbbType.SelectedIndex = 0;
         }
@@ -31,8 +24,9 @@ namespace StrategyPattern
         {
             try
             {
-                CashContext cashContext = new CashContext(cbbType.SelectedItem.ToString());
-                double totalPrice = cashContext.GetResult(Convert.ToDouble(txtPrice.Text) * Convert.ToDouble(txtAmount.Text));
+                var cashContext = new CashContext(cbbType.SelectedItem.ToString());
+                var totalPrice =
+                    cashContext.GetResult(Convert.ToDouble(txtPrice.Text)*Convert.ToDouble(txtAmount.Text));
                 lbxList.Items.Add($"{cbbType.Text}：单价:{txtPrice.Text}，数量:{txtAmount.Text}，合计:{totalPrice}");
                 lblTotalPrice.Text = totalPrice.ToString(CultureInfo.InvariantCulture);
             }

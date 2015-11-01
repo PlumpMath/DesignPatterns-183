@@ -4,7 +4,7 @@
     {
         public override double GetResult()
         {
-            return NumberA * NumberB;
+            return NumberA*NumberB;
         }
     }
 }

@@ -10,7 +10,7 @@ namespace AbstractFactoryPattern.Demo
             {
                 throw new DivideByZeroException($"{NumberB}不能为0");
             }
-            return NumberA / NumberB;
+            return NumberA/NumberB;
         }
     }
 }

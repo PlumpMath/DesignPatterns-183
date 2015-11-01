@@ -3,7 +3,7 @@
     public class Proxy : Subject
     {
         private RealSubject _relRealSubject;
-        
+
         public override void Request()
         {
             if (_relRealSubject == null)

@@ -1,21 +1,22 @@
 ﻿using System;
+using AbstractFactoryPattern.Demo;
 
 namespace AbstractFactoryPattern
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            new Demo.Simple();
+            new Simple();
             Console.WriteLine($"Demo.Simple();{Environment.NewLine}");
 
-            User user = new User();
-            Department department = new Department();
-            IUser iu = DataAccess.CreateUser();
+            var user = new User();
+            var department = new Department();
+            var iu = DataAccess.CreateUser();
             iu.Insert(user);
             iu.GetUser(1);
 
-            IDepartment id = DataAccess.CreateDepartment();
+            var id = DataAccess.CreateDepartment();
             id.Insert(department);
             id.GetDepartment(2);
 

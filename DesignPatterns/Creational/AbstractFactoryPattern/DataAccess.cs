@@ -10,8 +10,8 @@ namespace AbstractFactoryPattern
 
         public static IUser CreateUser()
         {
-            string className = AssemblyName + "." + DbType + "User";
-            return (IUser)Assembly.Load(AssemblyName).CreateInstance(className);
+            var className = AssemblyName + "." + DbType + "User";
+            return (IUser) Assembly.Load(AssemblyName).CreateInstance(className);
 
             //IUser result = null;
             //switch (DbType)
@@ -28,8 +28,8 @@ namespace AbstractFactoryPattern
 
         public static IDepartment CreateDepartment()
         {
-            string className = AssemblyName + "." + DbType + "Department";
-            return (IDepartment)Assembly.Load(AssemblyName).CreateInstance(className);
+            var className = AssemblyName + "." + DbType + "Department";
+            return (IDepartment) Assembly.Load(AssemblyName).CreateInstance(className);
 
             //    IDepartment result = null;
             //    switch (DbType)

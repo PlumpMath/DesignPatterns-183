@@ -1,6 +1,4 @@
-﻿using System.Runtime.Remoting.Channels;
-
-namespace FactoryPattern
+﻿namespace FactoryPattern
 {
     public class Operation
     {

@@ -1,16 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FactoryPattern
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            Operation oper = OperationFactory.CreationOperation("/");
+            var oper = OperationFactory.CreationOperation("/");
             oper.NumberA = 1;
             oper.NumberB = 0;
             try

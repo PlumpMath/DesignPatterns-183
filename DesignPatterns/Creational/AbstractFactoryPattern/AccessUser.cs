@@ -2,7 +2,7 @@
 
 namespace AbstractFactoryPattern
 {
-    public class AccessUser:IUser
+    public class AccessUser : IUser
     {
         public void Insert(User user)
         {

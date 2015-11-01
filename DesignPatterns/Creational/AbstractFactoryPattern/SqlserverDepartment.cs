@@ -2,7 +2,7 @@
 
 namespace AbstractFactoryPattern
 {
-    public class SqlserverDepartment:IDepartment
+    public class SqlserverDepartment : IDepartment
     {
         public void Insert(Department department)
         {

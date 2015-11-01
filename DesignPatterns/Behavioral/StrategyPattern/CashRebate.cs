@@ -11,7 +11,7 @@
 
         public override double AcceptCash(double money)
         {
-            return money * _moneyRebate;
+            return money*_moneyRebate;
         }
     }
 }

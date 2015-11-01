@@ -1,6 +1,6 @@
 ﻿namespace AbstractFactoryPattern
 {
-    public class SqlserverFactory:IFactory
+    public class SqlserverFactory : IFactory
     {
         public IUser CreateUser()
         {

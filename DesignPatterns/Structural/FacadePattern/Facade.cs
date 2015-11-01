@@ -4,32 +4,32 @@ namespace FacadePattern
 {
     public class Facade
     {
-        private SubSystemOne one;
-        private SubSystemTwo two;
-        private SubSystemThree three;
-        private SubSystemFour four;
+        private readonly SubSystemFour _four;
+        private readonly SubSystemOne _one;
+        private readonly SubSystemThree _three;
+        private readonly SubSystemTwo _two;
 
         public Facade()
         {
-            one = new SubSystemOne();
-            two = new SubSystemTwo();
-            three = new SubSystemThree();
-            four = new SubSystemFour();
+            _one = new SubSystemOne();
+            _two = new SubSystemTwo();
+            _three = new SubSystemThree();
+            _four = new SubSystemFour();
         }
 
         public void MethodA()
         {
             Console.WriteLine($"{Environment.NewLine}方法组A---");
-            one.MethodOne();
-            two.MethodTwo();
-            four.MethodFour();
+            _one.MethodOne();
+            _two.MethodTwo();
+            _four.MethodFour();
         }
 
         public void MethodB()
         {
             Console.WriteLine($"{Environment.NewLine}方法组B---");
-            two.MethodTwo();
-            three.MethodThree();
+            _two.MethodTwo();
+            _three.MethodThree();
         }
     }
 }

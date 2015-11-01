@@ -2,7 +2,7 @@
 
 namespace TemplateMethodPattern
 {
-    public class ConcreteClassB:AbstractClass
+    public class ConcreteClassB : AbstractClass
     {
         public override void PrimitiveOperation1()
         {

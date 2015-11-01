@@ -5,17 +5,17 @@ namespace BuilderPattern
 {
     public class Product
     {
-        IList<string> parts = new List<string>();
+        private readonly IList<string> _parts = new List<string>();
 
         public void Add(string part)
         {
-            parts.Add(part);
+            _parts.Add(part);
         }
 
         public void Show()
         {
             Console.WriteLine($"{Environment.NewLine}产品 创建 ----");
-            foreach (var part in parts)
+            foreach (var part in _parts)
             {
                 Console.WriteLine(part);
             }

@@ -1,6 +1,6 @@
 ﻿namespace AbstractFactoryPattern.Demo
 {
-    public class SubFactory:IFactory
+    public class SubFactory : IFactory
     {
         public Operation CreateOperation()
         {

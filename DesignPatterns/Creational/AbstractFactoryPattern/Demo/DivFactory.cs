@@ -1,6 +1,6 @@
 ﻿namespace AbstractFactoryPattern.Demo
 {
-    public class DivFactory:IFactory
+    public class DivFactory : IFactory
     {
         public Operation CreateOperation()
         {

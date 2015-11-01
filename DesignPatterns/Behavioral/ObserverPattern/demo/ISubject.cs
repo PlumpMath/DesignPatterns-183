@@ -2,7 +2,7 @@
 {
     public interface ISubject
     {
-        void Notify();
         string SubjectState { get; set; }
+        void Notify();
     }
 }

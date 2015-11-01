@@ -4,10 +4,10 @@
     {
         public Demo()
         {
-            Boss boss = new Boss();
-            StockObserver stockObserver = new StockObserver("小魏", boss);
-            NbaObserver nbaObserver = new NbaObserver("小易", boss);
-            OtherObserver otherObserver = new OtherObserver();
+            var boss = new Boss();
+            var stockObserver = new StockObserver("小魏", boss);
+            var nbaObserver = new NbaObserver("小易", boss);
+            var otherObserver = new OtherObserver();
 
             boss.Update += stockObserver.CloseStockMarket;
             boss.Update += nbaObserver.CloseNbaDirectSeeding;

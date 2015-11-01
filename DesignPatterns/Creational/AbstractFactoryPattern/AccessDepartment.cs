@@ -2,7 +2,7 @@
 
 namespace AbstractFactoryPattern
 {
-    public class AccessDepartment:IDepartment
+    public class AccessDepartment : IDepartment
     {
         public void Insert(Department department)
         {

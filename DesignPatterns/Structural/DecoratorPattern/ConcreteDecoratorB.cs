@@ -13,7 +13,6 @@ namespace DecoratorPattern
 
         private void AddedBehavior()
         {
-            
         }
     }
 }

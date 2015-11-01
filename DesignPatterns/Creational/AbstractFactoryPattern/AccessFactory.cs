@@ -1,10 +1,10 @@
 ﻿namespace AbstractFactoryPattern
 {
-    public class AccessFactory:IFactory
+    public class AccessFactory : IFactory
     {
         public IUser CreateUser()
         {
-           return new AccessUser();
+            return new AccessUser();
         }
 
         public IDepartment CreateDepartment()

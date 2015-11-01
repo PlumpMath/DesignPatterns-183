@@ -17,7 +17,7 @@ namespace StrategyPattern
         {
             if (money >= _moneyCondition)
             {
-                return money - Math.Floor(money / _moneyCondition) * _moneyReturn;
+                return money - Math.Floor(money/_moneyCondition)*_moneyReturn;
             }
             return money;
         }

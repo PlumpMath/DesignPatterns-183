@@ -1,6 +1,6 @@
 ﻿namespace BuilderPattern
 {
-    public class ConcreteBuilder2:Builder
+    public class ConcreteBuilder2 : Builder
     {
         private readonly Product _product = new Product();
 

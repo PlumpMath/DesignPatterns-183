@@ -8,7 +8,7 @@
 
         public override Prototype Clone()
         {
-            return (Prototype)this.MemberwiseClone();
+            return (Prototype) MemberwiseClone();
         }
     }
 }

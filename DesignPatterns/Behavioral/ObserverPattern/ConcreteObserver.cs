@@ -6,13 +6,14 @@ namespace ObserverPattern
     {
         private readonly string _name;
         private string _observerState;
-        public ConcreteSubject Subject { get; set; }
 
         public ConcreteObserver(ConcreteSubject subject, string name)
         {
             Subject = subject;
             _name = name;
         }
+
+        public ConcreteSubject Subject { get; set; }
 
         public override void Update()
         {
