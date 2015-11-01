@@ -1,4 +1,4 @@
-﻿namespace AbstractFactoryPattern
+﻿namespace AbstractFactoryPattern.Demo
 {
     public class DivFactory:IFactory
     {

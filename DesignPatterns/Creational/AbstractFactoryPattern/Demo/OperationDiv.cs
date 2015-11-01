@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AbstractFactoryPattern
+namespace AbstractFactoryPattern.Demo
 {
     public class OperationDiv : Operation
     {

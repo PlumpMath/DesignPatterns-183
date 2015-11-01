@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AbstractFactoryPattern
 {
@@ -11,19 +6,18 @@ namespace AbstractFactoryPattern
     {
         static void Main(string[] args)
         {
-            IFactory operFactory = new DivFactory();
-            Operation oper = operFactory.CreateOperation();
-            oper.NumberA = 1;
-            oper.NumberB = 0;
-            try
-            {
-                double result = oper.GetResult();
-                Console.WriteLine(result.ToString(CultureInfo.InvariantCulture));
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex);
-            }
+            new Demo.Simple();
+            Console.WriteLine($"Demo.Simple();{Environment.NewLine}");
+
+            User user = new User();
+            Department department = new Department();
+            IUser iu = DataAccess.CreateUser();
+            iu.Insert(user);
+            iu.GetUser(1);
+
+            IDepartment id = DataAccess.CreateDepartment();
+            id.Insert(department);
+            id.GetDepartment(2);
 
             Console.ReadKey();
         }

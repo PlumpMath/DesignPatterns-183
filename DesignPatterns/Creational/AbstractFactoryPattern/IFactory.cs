@@ -2,6 +2,8 @@
 {
     public interface IFactory
     {
-        Operation CreateOperation();
+        IUser CreateUser();
+
+        IDepartment CreateDepartment();
     }
 }

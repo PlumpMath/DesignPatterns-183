@@ -1,85 +1,93 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="AbstractFactoryPattern.SubFactory" BaseTypeListCollapsed="true">
-    <Position X="5.75" Y="4.25" Width="1.5" />
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="AbstractFactoryPattern.User">
+    <Position X="7.5" Y="5.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
-      <FileName>SubFactory.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" Collapsed="true" />
-  </Class>
-  <Class Name="AbstractFactoryPattern.AddFactory" BaseTypeListCollapsed="true">
-    <Position X="4.75" Y="2.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
-      <FileName>AddFactory.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.1" Collapsed="true" />
-  </Class>
-  <Class Name="AbstractFactoryPattern.DivFactory" BaseTypeListCollapsed="true">
-    <Position X="8" Y="4.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
-      <FileName>DivFactory.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" Collapsed="true" />
-  </Class>
-  <Class Name="AbstractFactoryPattern.MulFactory" BaseTypeListCollapsed="true">
-    <Position X="6.75" Y="2.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
-      <FileName>MulFactory.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" Collapsed="true" />
-  </Class>
-  <Class Name="AbstractFactoryPattern.Operation">
-    <Position X="2" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAEAAAAAAAAA=</HashCode>
-      <FileName>Operation.cs</FileName>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>User.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="AbstractFactoryPattern.OperationAdd">
-    <Position X="0.5" Y="2.75" Width="1.5" />
+  <Class Name="AbstractFactoryPattern.AccessDepartment" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="2" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
-      <FileName>OperationAdd.cs</FileName>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>AccessDepartment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AbstractFactoryPattern.AccessFactory" BaseTypeListCollapsed="true">
+    <Position X="3.5" Y="2" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AccessFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AbstractFactoryPattern.AccessUser" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>AccessUser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AbstractFactoryPattern.DataAccess">
+    <Position X="4.5" Y="4.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAACAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataAccess.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="AbstractFactoryPattern.OperationDiv">
-    <Position X="3.5" Y="4.25" Width="1.5" />
+  <Class Name="AbstractFactoryPattern.Department">
+    <Position X="9.25" Y="5.25" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
-      <FileName>OperationDiv.cs</FileName>
+      <HashCode>AAAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Department.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="AbstractFactoryPattern.OperationMul">
-    <Position X="2.5" Y="2.75" Width="1.5" />
+  <Class Name="AbstractFactoryPattern.SqlserverDepartment" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="2" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
-      <FileName>OperationMul.cs</FileName>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>SqlserverDepartment.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
-  <Class Name="AbstractFactoryPattern.OperationSub">
-    <Position X="1.5" Y="4.25" Width="1.5" />
-    <InheritanceLine Type="AbstractFactoryPattern.Operation" ManuallyRouted="true">
-      <Path>
-        <Point X="2.75" Y="2.188" />
-        <Point X="2.75" Y="2.45" />
-        <Point X="2.25" Y="2.45" />
-        <Point X="2.25" Y="4.25" />
-      </Path>
-    </InheritanceLine>
+  <Class Name="AbstractFactoryPattern.SqlserverFactory" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
-      <FileName>OperationSub.cs</FileName>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SqlserverFactory.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
+  <Class Name="AbstractFactoryPattern.SqlserverUser" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>SqlserverUser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="AbstractFactoryPattern.IDepartment">
+    <Position X="7.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>IDepartment.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Interface Name="AbstractFactoryPattern.IFactory">
-    <Position X="5.75" Y="1" Width="1.5" />
+    <Position X="2" Y="0.5" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AbstractFactoryPattern.IUser">
+    <Position X="1.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>IUser.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Microsoft YaHei UI" Size="9" />
